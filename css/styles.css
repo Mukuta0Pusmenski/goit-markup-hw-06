@@ -390,7 +390,7 @@ button {
     height: 432px;
     background-color: #2e2f42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg-1x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -411,8 +411,8 @@ button {
     margin-left: 52px;
     margin-right: 52px;
     margin-bottom: 72px;
-    margin-top: -117px;
-    padding-right: 30px;
+    margin-top: -116px;
+    padding: 0px 16px;
 }
 
 .information-button {
@@ -431,8 +431,8 @@ button {
     border: none;
     background-color: var(--button-bg-color);
     margin: 0;
-    margin-left: 60px;
-    margin-right: 100px;
+    margin-left: 75px;
+    margin-right: 76px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -449,8 +449,8 @@ button {
 }
 
 .container {
-    padding-left: 0px;
-    padding-right: 009px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -487,6 +487,7 @@ button {
     margin-right: 136px;
     margin-bottom: 36px;
     padding-right: 0px;
+    padding-left: 0px;
 }
 
 .information-button {
