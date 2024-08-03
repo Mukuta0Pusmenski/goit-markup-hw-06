@@ -1,16 +1,30 @@
-.hiden {
+.hide {
     display: none;
-} 
-
-/* -=- */
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
-    color: #434455
 }
 
-ul {
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+
+/* reset */
+
+ul,
+ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
 a {
@@ -23,45 +37,25 @@ img {
     height: auto;
 }
 
-:root {
-    --button-bg-color: #4d5ae5;
-    --font-family: "Roboto", sans-serif;
-    --second-family: "Raleway", sans-serif;
-
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
-p {
-    margin: 0;
-}
-
-ul {
-    padding-left: 0;
-    margin: 0;
+button {
+    cursor: pointer;
 }
 
 .visually-hidden {
     position: absolute;
+    white-space: nowrap;
     width: 1px;
     height: 1px;
-    margin: -1px;
+    overflow: hidden;
     border: 0;
     padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden;
+    clip-path: inset(100%);
+    margin: -1px;
 }
 
-/* -=-=- */
+/*  */
+/* conteiner */
 
 .container {
     max-width: 320px;
@@ -69,20 +63,20 @@ ul {
     padding: 0 16px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {    
     .container {
-            max-width: 768px;
-        }
+     max-width: 768px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
     .container {
-            max-width: 1158px;
-            padding: 0 15px;
-        }
+    max-width: 1158px;
+    padding: 0 15px;
+    }
 }
-
 /* -=- */
+/* header */
 
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -95,16 +89,6 @@ ul {
     justify-content: space-between;
 }
 
-.header-navigation {
-    display: flex;
-    align-items: center;
-}
-
-.header-list,
-.contacts {
-    display: none;
-}
-
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -112,7 +96,6 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
 }
 
 .header-logo-dop {
@@ -124,9 +107,226 @@ ul {
     color: #2e2f42;
 }
 
-.burger-btn {
+.byrger-btm {
     padding: 0;
     border: none;
     background-color: transparent;
+}
+
+.burger-icon {
+    display: block;
+    fill: #2f2f37;
+}
+
+@media screen and (min-width: 768px) {
+    .byrger-btm {
+    display: none;
+    }
+    
+    .header-list {
+        display: flex;
+        gap: 40px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contacts {
+        font-style: normal;
+        display: block;
+    }
+
+    .header-navigation {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-logo-dop {
+        padding: 24px 0;
+        margin-right: 120px;
+    }
+
+    .header-navigation-content.current {
+        position: relative;
+    }
+    
+    .header-navigation-content.current:hover {
+        color: #404bbf;
+    }
+    
+    .header-navigation-content.current:focus {
+        color: #404bbf;
+    }
+    
+    .header-navigation-content {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #404bbf;
+        padding: 24px 0 24px;
+        display: block;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        padding: 24px 0;
+    }
+    
+    .header-navigation-content-none {
+        color: #2E2F42;
+    }
+
+    .current::after {
+        content: '';
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+        background-color: #404bbf;
+        border-radius: 2px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-navigation-content:hover,
+    .header-navigation-content:focus {
+        color: #404bbf;
+    }
+
+    /* contact */
+    
+    .contacts {
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: 0.04em;
+        color: #434455;
+    }
+
+    .contacts-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .contacts-list-content {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .contacts-list-content:hover,
+    .contacts-list-content:focus {
+        color: #404bbf;
+    }
+}
+
+
+@media screen and (min-width: 1158px) {
+    .header-logo-dop {
+        margin-right: 76px;
+    }
+
+    .contacts-list {
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .contacts-list-content {
+        padding: 24px 0;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    
+    }
+}
+
+/* -=- */
+/* mobail-menu */
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.mobile-menu-container {
+    position: relative;
+    padding-top: 72px;
+    padding-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mobile-menu-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.button-exit-icon {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-exit-icon:hover {
+    background-color: #404bbf;
+    border: none;
+}
+
+.button-exit-icon:focus {
+    background-color: #404bbf;
+    border: none;
+}
+
+.button-exit-icon:focus .modal-button-exit-icon {
+    fill: #ffffff;
+}
+
+.button-exit-icon:hover .modal-button-exit-icon {
+    fill: #ffffff;
+}
+
+.modal-button-exit-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-nav {
+    margin-bottom: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
 }
 
