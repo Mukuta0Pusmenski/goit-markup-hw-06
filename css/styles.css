@@ -63,13 +63,13 @@ button {
     padding: 0 16px;
 }
 
-@media screen and (min-width: 768px) {    
+@media screen and (min-width: 769px) {    
     .container {
      max-width: 768px;
     }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1159px) {
     .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -118,7 +118,7 @@ button {
     fill: #2f2f37;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .byrger-btm {
     display: none;
     }
@@ -221,7 +221,7 @@ button {
 }
 
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1159px) {
     .header-logo-dop {
         margin-right: 76px;
     }
@@ -365,7 +365,7 @@ button {
     fill: #f4f4fd;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     
     .modal-mobile {
         display: none;
@@ -442,7 +442,7 @@ button {
     padding-right: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 .information-section {
     width: 768px;
     height: 4326x;
@@ -501,7 +501,7 @@ button {
 }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1159px) {
 .information-section {
         background-color: #2e2f42;
         padding: 188px 0;
@@ -552,7 +552,7 @@ button {
 /* -=- */
 /* box-2 */
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .icons {
         display: none;
     }
@@ -652,7 +652,7 @@ button {
 
 }
 
-@media screen and (min-width: 1152px) {
+@media screen and (min-width: 1159px) {
 
     .section {
         padding: 120px 0;
@@ -1061,7 +1061,7 @@ button {
 
 }
 
-@media screen and (min-width: 1152px) {
+@media screen and (min-width: 1159px) {
     .team-section {
          background-color: #f4f4fd;
     }
@@ -1221,7 +1221,7 @@ button {
 
 }
 
-@media screen and (min-width: 1152px) {
+@media screen and (min-width: 1159px) {
 
     .section {
         padding: 120px 0;
@@ -1432,7 +1432,7 @@ button {
     
 }
 
-@media screen and (min-width: 1152px) {
+@media screen and (min-width: 1159px) {
 
     .footer {
         padding: 100px 0;
