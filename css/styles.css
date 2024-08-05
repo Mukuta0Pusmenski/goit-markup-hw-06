@@ -63,13 +63,13 @@ button {
     padding: 0 16px;
 }
 
-@media screen and (min-width: 769px) {    
+@media screen and (min-width: 768px) {    
     .container {
      max-width: 768px;
     }
 }
 
-@media screen and (min-width: 1159px) {
+@media screen and (min-width: 1158px) {
     .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -118,7 +118,7 @@ button {
     fill: #2f2f37;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .byrger-btm {
     display: none;
     }
@@ -221,7 +221,7 @@ button {
 }
 
 
-@media screen and (min-width: 1159px) {
+@media screen and (min-width: 1158px) {
     .header-logo-dop {
         margin-right: 76px;
     }
@@ -365,7 +365,7 @@ button {
     fill: #f4f4fd;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     
     .modal-mobile {
         display: none;
@@ -442,7 +442,7 @@ button {
     padding-right: 0;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
 .information-section {
     width: 768px;
     height: 4326x;
@@ -501,7 +501,7 @@ button {
 }
 }
 
-@media screen and (min-width: 1159px) {
+@media screen and (min-width: 1158px) {
 .information-section {
         background-color: #2e2f42;
         padding: 188px 0;
@@ -552,7 +552,7 @@ button {
 /* -=- */
 /* box-2 */
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     .icons {
         display: none;
     }
@@ -615,7 +615,7 @@ button {
 
 }
 
-@media screen and (min-width: 769px)  {
+@media screen and (min-width: 768px)  {
     .icons {
         display: none;
     }
@@ -652,7 +652,7 @@ button {
 
 }
 
-@media screen and (min-width: 1159px) {
+@media screen and (min-width: 1158px) {
 
     .section {
         padding: 120px 0;
@@ -983,7 +983,7 @@ button {
 
 .div-label {}
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
 
     .team-section {
         background-color: #f4f4fd;
@@ -1061,7 +1061,7 @@ button {
 
 }
 
-@media screen and (min-width: 1159px) {
+@media screen and (min-width: 1158px) {
     .team-section {
          background-color: #f4f4fd;
     }
@@ -1200,7 +1200,7 @@ button {
     letter-spacing: 0.02em;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
 
     .container {
          max-width: 768px;
@@ -1221,7 +1221,7 @@ button {
 
 }
 
-@media screen and (min-width: 1159px) {
+@media screen and (min-width: 1158px) {
 
     .section {
         padding: 120px 0;
@@ -1378,7 +1378,7 @@ button {
     fill: #ffffff;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
 
     .logo {
             font-family: "Raleway", sans-serif;
@@ -1432,7 +1432,7 @@ button {
     
 }
 
-@media screen and (min-width: 1159px) {
+@media screen and (min-width: 1158px) {
 
     .footer {
         padding: 100px 0;
@@ -1524,7 +1524,7 @@ button {
         display: block;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
 
     .modal {
             position: absolute;
