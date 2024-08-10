@@ -375,10 +375,53 @@ ul {
     position: absolute;
     top: 24px;
     right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.mobail-menu-close:hover,
+.mobail-menu-close:focus {
+    background-color: #404bbf;
+    border: none;
+}
+
+.mobail-menu-close-icon  {}
 
 .mobail-menu-nav {
     margin-bottom: auto;
+}
+
+.menu-point-cont {
+    display: block;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+}
+
+.no-end {
+    padding-bottom: 40px;
+}
+
+.ending {
+    padding: 0;
+}
+
+.menu-point-cont:hover {
+    color: #404BBF;
+}
+
+.menu-point-cont:focus {
+    color: #404BBF;
 }
 
 @media screen and (min-width: 768px) {
