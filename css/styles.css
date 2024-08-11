@@ -534,9 +534,110 @@ ul {
     margin-right: auto;
 }
 
+@media screen and (min-width: 768px) {
+
+    .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .information-section {
+        width: 768px;
+        height: 436px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-2x.jpg);
+    }
+
+    .information {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 107%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #FFFFFF;
+        padding-right: 0;
+        padding-top: 112px;
+        padding-left: 0;
+        padding-bottom: 36px;
+        margin: 0 136px;
+    }
+
+}
+
+@media screen and (min-width: 1158px) {
+
+.information-section {
+        background-color: #2e2f42;
+        /* padding: 188px 0; */
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-2.jpg);
+        max-width: 1440px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    .information {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 107%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+        /* padding-top: 188px; */
+    }
+
+    :root {
+        --button-bg-color: #4d5ae5;
+    }
+
+    .information-button {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        background-color: var(--button-bg-color);
+        border-radius: 4px;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
