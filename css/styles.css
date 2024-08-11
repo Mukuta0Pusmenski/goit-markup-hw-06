@@ -483,6 +483,14 @@ ul {
     fill: #f4f4fd;
 }
 
+.information-button:hover {
+    background-color: #404BBF;
+}
+
+.information-button:focus {
+    background-color: #404BBF;
+}
+
 @media screen and (min-width: 768px) {
 
     .mobile-menu {
@@ -616,32 +624,34 @@ ul {
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
+/* box-two */
+
+.icons {
+    display: none;
+}
+
+.box-two-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap : 72px;
+    /* Виріши проблему з відступом через геп */
+    /* margin-bottom: 72px; */
+}
+
+.box-two-paragraf {}
 
 
-
+@media screen and (min-width: 1158px) {
+    
+    .icons {
+        display: block;
+    }
+}
 
 
 
