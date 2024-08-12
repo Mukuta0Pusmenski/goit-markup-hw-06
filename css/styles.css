@@ -638,12 +638,65 @@ ul {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    gap : 72px;
     /* Виріши проблему з відступом через геп */
     /* margin-bottom: 72px; */
 }
 
-.box-two-paragraf {}
+.box-two-paragraf {
+    margin-bottom: 72px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .box-two {
+        width: 736px;
+        height: 312px;
+        margin: 96px 16px;
+    }
+
+    .box-two-list {
+        display: flex;
+    }
+
+    .box-two-titem {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+    }
+
+    .box-two-paragraf {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+        margin-bottom: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
 
 
 @media screen and (min-width: 1158px) {
