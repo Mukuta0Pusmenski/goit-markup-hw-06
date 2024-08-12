@@ -628,18 +628,23 @@ ul {
 
 /* box-two */
 
+.box-two-list {
+    margin: 96px 0;
+}
+
 .icons {
     display: none;
 }
 
 .box-two-item {
+    padding:auto 96px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     /* Виріши проблему з відступом через геп */
-    /* margin-bottom: 72px; */
+     /* margin: 0 72px; */
 }
 
 .box-two-paragraf {
@@ -651,14 +656,21 @@ ul {
     .box-two {
         width: 736px;
         height: 312px;
-        margin: 96px 16px;
+        margin: 96px auto;
     }
 
     .box-two-list {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
     }
 
-    .box-two-titem {
+    .box-two-item {
+        width: calc((100% - 24px)/2);
+    }
+
+    .box-two-title {
         font-family: var(--font-family);
         font-weight: 700;
         font-size: 36px;
