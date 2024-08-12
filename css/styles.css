@@ -689,21 +689,6 @@ ul {
         margin-bottom: 0px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -716,6 +701,53 @@ ul {
     .icons {
         display: block;
     }
+
+        .box-two {
+            padding: 0 0 ;
+            margin-top: 120px;
+            margin-bottom: 120px;
+        }
+    
+        .box-two-list {
+            display: flex;
+            gap: 0 24px;
+            align-items: flex-start;
+        }
+    
+        .box-two-item {
+            width: calc((100% - 72px) / 4);
+        }
+    
+        .box-two-title {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+            margin-bottom: 8px;
+        }
+    
+        .box-two-paragraf {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+        }
+    
+        .team-list-point {
+            width: calc((100% - 72px) / 4);
+        }
+    
+        .icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 112px;
+            background-color: #f4f4fd;
+            border-radius: 4px;
+            border: 1px solid #8e8f99;
+            margin-bottom: 8px;
+        }
 }
 
 
