@@ -648,12 +648,12 @@ ul {
 
 .form-button-svg {
     margin-left: 16px;
-} */ */
+} */
 
 /* -=- */
 /* reg */
 
-.backdrop {
+/* .backdrop.is-open {
     position: fixed;
     top: 0;
     left: 0;
@@ -835,9 +835,8 @@ ul {
 
 .label-href {
     color: #4d5ae5;
-    ;
 }
 
-.div-label {}
+.div-label {} */
 
 /* -=- */
