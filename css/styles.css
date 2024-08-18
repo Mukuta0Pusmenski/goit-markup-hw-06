@@ -514,7 +514,10 @@ ul {
     width: 320px;
     /* height: 432px; */
     margin: 0 auto;
-    padding: 0 72px;
+    /* padding: 0 72px; */
+    padding-left: 38px;
+    padding-top: 72px;
+    padding-bottom: 67px;
 }
 
 .information {
@@ -546,8 +549,10 @@ ul {
     /* padding: 16px 32px; */
     width: 169px;
     height: 56px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-left: 22px;
+    margin-right: 40px;
 }
 
 @media screen and (min-width: 768px) {
