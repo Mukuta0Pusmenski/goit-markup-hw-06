@@ -161,7 +161,22 @@
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-list">
                     <li class="team-list-point">
-                        <img src="./images/image-mark.jpg" alt="Mark Guerrero" class="img-three">
+                        <!-- <img src="./images/image-mark.jpg" alt="Mark Guerrero" class="img-three"> -->
+                        <picture>
+                            <source srcset="
+                                                ./images/image-mark.jpg    1x,
+                                                ./images/mobile-img/img-tom-two@2x.jpg 2x
+                                              " media="(min-width: 1158px)" />
+                            <source srcset="
+                                                ./images/image-mark.jpg    1x,
+                                                ./images/mobile-img/img-tom-two@2x.jpg 2x
+                                              " media="(min-width: 768px)" />
+                            <source srcset="
+                                                ./images/image-mark.jpg    1x,
+                                                ./images/mobile-img/img-tom-two@2x.jpg 2x
+                                              " media="(max-width: 767px)" />
+                            <img src="./images/image-mark.jpg" alt="Mark Guerrero" class="img-three">
+                        </picture>
                         <div class="coffer-three">
                             <h3 class="box-three-title">Mark Guerrero</h3>
                             <p class="team-information-paragraf">Product Designer</p>

@@ -506,18 +506,18 @@ ul {
 /* box-one */
 
 .information-section {
-    background-color: #2e2f42;
+    /* background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    width: 320px;
+    background-size: cover; */
+    /* width: 320px; */
     /* height: 432px; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* padding: 0 72px; */
-    padding-left: 38px;
+    /* padding-left: 38px;
     padding-top: 72px;
-    padding-bottom: 67px;
+    padding-bottom: 67px; */
 }
     .information-section {
         background-color: #2e2f42;
@@ -525,13 +525,27 @@ ul {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        width: 320px;
+        margin: 0 auto;
+        padding-left: 38px;
+        padding-top: 72px;
+        padding-bottom: 67px;
     }
     
         @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
         screen and (min-resolution: 192dpi) and (max-width: 767px),
         screen and (min-resolution: 2dppx) and (max-width: 767px) {
             .information-section {
-                background-image: url('../images/people-office-two-tel@2x.jpg');
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-two-tel.jpg');
+                /* background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-color: #2e2f42;
+                width: 320px;
+                margin: 0 auto;
+                padding-left: 38px;
+                padding-top: 72px;
+                padding-bottom: 67px; */
             }
         }
     
@@ -548,7 +562,7 @@ ul {
         @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
         screen and (min-resolution: 192dpi) and (min-width: 768px),
         screen and (min-resolution: 2dppx) and (min-width: 768px) {
-            .banner {
+            .information-section {
                 background-image: url('../images/people-office-two-pln@2x.jpg');
             }
         }
@@ -566,7 +580,7 @@ ul {
         @media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
         screen and (min-resolution: 192dpi) and (min-width: 1158px),
         screen and (min-resolution: 2dppx) and (min-width: 1158px) {
-            .banner {
+            .information-section {
                 background-image: url('../images/people-office-two-pc@2x.jpg');
             }
         }
