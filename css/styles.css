@@ -1166,7 +1166,6 @@ ul {
 
 /* box-four */
 
-
 .box-four {
     padding: 96px 0;
 }
@@ -1363,6 +1362,7 @@ ul {
 .social-network-icon {
     fill: #f4f4fd;
 }
+
 
 /* foter-email */
 .box-five {
@@ -1608,7 +1608,9 @@ padding: 8px;
     
         .footer-content {
             margin: 0px 0px;
+            margin-bottom: 0px;
             padding-right: 120px;
+            padding-bottom: 72px;
         }
     
         .footer-ikon {
@@ -1646,7 +1648,7 @@ padding: 8px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #FFFFFF;
-            margin-bottom: 16px;
+            padding-bottom: 16px;
         }
     
         .social-network-content {
@@ -1689,7 +1691,7 @@ padding: 8px;
         }
     
         .box-paragraf {
-            margin-bottom: 16px;
+            padding-bottom: 16px;
             font-weight: 500;
             line-height: 1.5;
             letter-spacing: 0.02em;
