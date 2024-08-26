@@ -628,6 +628,7 @@ ul {
     }
 
     .information-section {
+        padding: 0px 0px;
         width: 768px;
         height: 436px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-2x.jpg);
@@ -646,6 +647,12 @@ ul {
         padding-left: 0;
         padding-bottom: 36px;
         margin: 0 136px;
+        text-wrap: nowrap;
+        inline-size: fit-content;
+    }
+
+    .information-button {
+        margin-left: 300px;
     }
 
 }
