@@ -765,6 +765,7 @@ ul {
 
     .box-two-item {
         width: calc((100% - 24px)/2);
+        display: block;
     }
 
     .box-two-title {
@@ -800,7 +801,7 @@ ul {
     }
 
         .box-two {
-            padding: 0 15px;
+            padding: 120px 15px;
         }
     
         .box-two-list {
@@ -1263,9 +1264,18 @@ ul {
     .portfolio-design {
         width: calc((100% - 48px) / 2);
     }
+
+    .portfolio-list {
+        justify-content: center;
+    }
+
 }
 
 @media screen and (min-width: 1158px) {
+
+    .box-four {
+            padding: 96px 16px;
+        }
 
     .portfolio-design {
         width: calc((100% - 48px) / 3);
