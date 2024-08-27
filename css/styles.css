@@ -640,9 +640,10 @@ ul {
     }
 
     .information-section {
-        padding: 0px 0px;
+        /* padding: 0px 0px; */
         /* width: 768px; */
         /* height: 436px; */
+        padding-bottom: 112px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-2x.jpg);
     }
 
