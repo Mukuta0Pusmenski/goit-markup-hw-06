@@ -200,6 +200,11 @@ ul {
         flex-direction: column;
         gap: 12px;
     }
+
+    .droping {
+        padding-bottom: 12px;
+        display: block;
+    }
    
     .contacts-list-content {
         font-family: var(--font-family);
@@ -208,6 +213,9 @@ ul {
         line-height: 117%;
         letter-spacing: 0.04em;
         color: #434455;
+        font-style: normal;
+        display: block;
+        /* padding-bottom: 12px; */
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -525,9 +533,9 @@ ul {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        width: 320px;
+        /* width: 320px; */
         margin: 0 auto;
-        padding-left: 38px;
+        /* padding-left: 38px; */
         padding-top: 72px;
         padding-bottom: 67px;
     }
@@ -596,6 +604,8 @@ ul {
     width: 216px;
     margin-bottom: 72px;
     /* padding: 72px 52px; */
+            margin-right: auto;
+                margin-left: auto;
 }
 
 .information-button {
@@ -616,21 +626,23 @@ ul {
     height: 56px;
     /* margin-left: auto;
     margin-right: auto; */
-    margin-left: 22px;
-    margin-right: 40px;
+    /* margin-left: 22px;
+    margin-right: 40px; */
+            margin-right: auto;
+                margin-left: auto;
 }
 
 @media screen and (min-width: 768px) {
 
     .container {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .information-section {
         padding: 0px 0px;
-        width: 768px;
-        height: 436px;
+        /* width: 768px; */
+        /* height: 436px; */
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-2x.jpg);
     }
 
@@ -659,6 +671,11 @@ ul {
 
 @media screen and (min-width: 1158px) {
 
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
 .information-section {
         background-color: #2e2f42;
         /* padding: 188px 0; */
@@ -668,6 +685,8 @@ ul {
         background-position: center;
         background-size: cover;
         margin: 0 auto;
+        padding-top: 188px;
+        padding-bottom: 188px;
     }
 
     .information {
@@ -678,11 +697,13 @@ ul {
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
-        max-width: 496px;
+        /* max-width: 496px; */
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 48px;
         /* padding-top: 188px; */
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     :root {
@@ -753,7 +774,7 @@ ul {
 @media screen and (min-width: 768px) {
     
     .box-two {
-        padding: 96px 16px;
+        padding: 96px 0px;
     }
 
     .box-two-list {
@@ -775,6 +796,8 @@ ul {
         line-height: 111%;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        text-align: left;
+        margin-bottom: 0px;
     }
 
     .box-two-paragraf {
@@ -784,6 +807,10 @@ ul {
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
+        margin-bottom: 0px;
+    }
+
+    .box-two-item {
         margin-bottom: 0px;
     }
 
@@ -801,7 +828,7 @@ ul {
     }
 
         .box-two {
-            padding: 120px 15px;
+            padding: 120px 0px;
         }
     
         .box-two-list {
@@ -824,6 +851,7 @@ ul {
         }
     
         .box-two-paragraf {
+            font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
@@ -956,6 +984,16 @@ ul {
     fill: #f4f4fd;
 }
 
+.social-network-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-bottom: 72px; */
+    margin-bottom: 72px;
+}
+
+
+
 @media screen and (min-width: 768px) {
     .box-three {
             background-color: #F4F4FD;
@@ -975,7 +1013,7 @@ ul {
     
         .team-list {
             display: flex;
-            gap: 24px;
+            gap: 64px;
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: center;
@@ -1069,7 +1107,7 @@ ul {
 @media screen and (min-width: 1158px) {
     .box-three {
             background-color: #F4F4FD;
-            padding: 0 15px;
+            /* padding: 0 15px; */
         }
     
         .team-title {
@@ -1456,12 +1494,13 @@ padding: 8px;
         .footer-wrapper {
             display: flex;
             align-items: baseline;
+            width: 584px;
         }
     
         .footer {
             background-color: #2e2f42;
             padding: 100px 0;
-            padding-left: 108px;
+            /* padding-left: 108px; */
         }
     
         .footer-content {
@@ -1494,9 +1533,10 @@ padding: 8px;
     
         .social-network-footer {
             display: flex;
-            padding-bottom: 72px;
+            margin-bottom: 72px;
             flex-direction: column;
-            padding-left: 24px;
+            margin-left: 24px;
+            padding-bottom: 0px;
         }
     
         .container {}
@@ -1615,6 +1655,8 @@ padding: 8px;
         .footer-wrapper {
             display: flex;
             align-items: baseline;
+            width: auto;
+            flex-wrap: nowrap;
         }
     
         .footer {
@@ -1626,8 +1668,8 @@ padding: 8px;
         .footer-content {
             margin: 0px 0px;
             margin-bottom: 0px;
-            padding-right: 120px;
-            padding-bottom: 72px;
+            margin-right: 120px;
+            /* padding-bottom: 72px; */
         }
     
         .footer-ikon {
@@ -1654,7 +1696,9 @@ padding: 8px;
     
         .social-network-footer {
             padding: 0px;
-            padding-right: 80px;
+            margin-right: 80px;
+            margin-left: 0px;
+            margin-bottom: 0px;
         }
     
         .container {}
@@ -1718,6 +1762,7 @@ padding: 8px;
         .box-form {
             display: flex;
             gap: 24px;
+            flex-wrap: nowrap;
         }
     
         .box-form-label {}
